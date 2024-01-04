@@ -35,9 +35,7 @@ public class Problema2 {
                 }
             }
         }
-        
-
-    
+    }   
 
     public static void obtenerAreaCuadrado() {
         Scanner entrada = new Scanner(System.in);
@@ -45,6 +43,9 @@ public class Problema2 {
         double lado = entrada.nextDouble();
         double area = lado * lado;
         System.out.println("El area del cuadrado es: " + area);
+    }
+    public static void obtenerAreaTriangulo() {
+        
     }
 }
 
